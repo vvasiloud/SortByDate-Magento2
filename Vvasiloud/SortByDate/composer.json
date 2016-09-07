@@ -1,0 +1,20 @@
+{
+    "name": "vvasiloud/sortbydate",
+    "description": "",
+    "authors": [
+        {
+            "email": "vvasiloudis@gmail.com",
+            "name": "Vasilis Vasiloudis"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "vvasiloud\\SortByDate\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Catalog\Model\Config">
+		<plugin disabled="false" name="Vvasiloud_SortByDate_Plugin_Magento_Catalog_Model_Config" sortOrder="10" type="Vvasiloud\SortByDate\Plugin\Magento\Catalog\Model\Config"/>
+	</type>
+	<type name="Magento\Catalog\Model\Config\Source\ListSort">
+		<plugin disabled="false" name="Vvasiloud_SortByDate_Plugin_Magento_Catalog_Model_Config_Source_ListSort" sortOrder="10" type="Vvasiloud\SortByDate\Plugin\Magento\Catalog\Model\Config\Source\ListSort"/>
+	</type>
+	<!--<preference for="Magento\Catalog\Block\Product\ProductList\Toolbar" type="Vvasiloud\SortByDate\Block\Catalog\Product\ProductList\Toolbar" />-->
+</config>
